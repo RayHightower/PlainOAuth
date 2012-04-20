@@ -8,5 +8,6 @@
 
 // It feels silly to store these in plain text within the application.
 // I must find a better way for the *real* app.
-#define OAUTH_CONSUMER_KEY @"UVEQ0Aqgsy7jZi0hmRTdLw"
-#define OAUTH_CONSUMER_SECRET @"4tkRZ4TwgkKYKX0kTHzy45Zvkm88d70yEYgZdGE1ZTA"
+// Added "TWITTER" to constants 'cause that's what they're called elsewhere: OAUTH_TWITTER_CONSUMER_KEY OAUTH_TWITTER_CONSUMER_SECRET
+#define OAUTH_TWITTER_CONSUMER_KEY @"UVEQ0Aqgsy7jZi0hmRTdLw"
+#define OAUTH_TWITTER_CONSUMER_SECRET @"4tkRZ4TwgkKYKX0kTHzy45Zvkm88d70yEYgZdGE1ZTA"
