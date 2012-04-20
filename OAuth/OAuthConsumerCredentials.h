@@ -6,7 +6,7 @@
  *
  */
 
-#error Replace these with your own app credentials, then remove this error.
-
-#define OAUTH_CONSUMER_KEY @"insert your consumer key here"
-#define OAUTH_CONSUMER_SECRET @"insert your consumer secret here"
+// It feels silly to store these in plain text within the application.
+// I must find a better way for the *real* app.
+#define OAUTH_CONSUMER_KEY @"UVEQ0Aqgsy7jZi0hmRTdLw"
+#define OAUTH_CONSUMER_SECRET @"4tkRZ4TwgkKYKX0kTHzy45Zvkm88d70yEYgZdGE1ZTA"

@@ -67,7 +67,7 @@
     webView.delegate = self;
     [self.view addSubview:webView];
     
-    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"https://foursquare.com/oauth2/authenticate?client_id=%@&response_type=token&redirect_uri=%@", OAUTH_FOURSQUARE_CONSUMER_KEY, @"plainoauth://handleFoursquareLogin"]]]];
+//    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"https://foursquare.com/oauth2/authenticate?client_id=%@&response_type=token&redirect_uri=%@", OAUTH_FOURSQUARE_CONSUMER_KEY, @"plainoauth://handleFoursquareLogin"]]]];
     
 }
 

@@ -26,10 +26,10 @@
         oAuthTwitter = [[OAuthTwitter alloc] initWithConsumerKey:OAUTH_TWITTER_CONSUMER_KEY andConsumerSecret:OAUTH_TWITTER_CONSUMER_SECRET];
         [oAuthTwitter load];
         
-        oAuth4sq = [[OAuth alloc] initWithConsumerKey:OAUTH_FOURSQUARE_CONSUMER_KEY andConsumerSecret:OAUTH_FOURSQUARE_CONSUMER_SECRET];
-        oAuth4sq.save_prefix = @"PlainOAuth4sq";
-        [oAuth4sq load];
-        
+//        oAuth4sq = [[OAuth alloc] initWithConsumerKey:OAUTH_FOURSQUARE_CONSUMER_KEY andConsumerSecret:OAUTH_FOURSQUARE_CONSUMER_SECRET];
+//        oAuth4sq.save_prefix = @"PlainOAuth4sq";
+//        [oAuth4sq load];
+//        
         twitterController = [[TwitterController alloc] initWithNibName:@"TwitterController" bundle:nil];
         twitterController.oAuthTwitter = oAuthTwitter;
         

@@ -121,7 +121,8 @@
     [postBody appendData:[[NSString stringWithFormat:@"--%@\r\n", stringBoundary] dataUsingEncoding:NSUTF8StringEncoding]];
     [postBody appendData:[[NSString stringWithString:@"Content-Disposition: form-data; name=\"key\"\r\n\r\n"] dataUsingEncoding:NSUTF8StringEncoding]];
     // Define this TWITPIC_API_KEY somewhere or replace with your own key inline right here.
-    [postBody appendData:[TWITPIC_API_KEY dataUsingEncoding:NSUTF8StringEncoding]];
+//rem'd by RTH on 4/20/2012
+    //    [postBody appendData:[TWITPIC_API_KEY dataUsingEncoding:NSUTF8StringEncoding]];
     [postBody appendData:[@"\r\n" dataUsingEncoding:NSUTF8StringEncoding]];
     
     // TwitPic API doc says that message is mandatory, but looks like
